@@ -10,12 +10,12 @@ A program that prints the numbers from 1 to 100. But for multiples of three prin
 + [Chai](http://chaijs.com) – BDD / TDD assertion library
 + [Istanbul](https://gotwarlost.github.io/istanbul/) – code coverage tool
 
-### To run the app
+#### To run the app
 ```
 npm run fizzBuzz
 ```
 
-### To run the tests
+#### To run the tests
 ```
 npm test
 ```
