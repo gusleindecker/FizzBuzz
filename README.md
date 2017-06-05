@@ -10,12 +10,19 @@ A program that prints the numbers from 1 to 100. But for multiples of three prin
 + [Chai](http://chaijs.com) – BDD / TDD assertion library
 + [Istanbul](https://gotwarlost.github.io/istanbul/) – code coverage tool
 
-#### To run the app
+To run the app you need to install [yarn](https://yarnpkg.com/en/docs/install).
+
+#### To install dependencies:
 ```
-npm run fizzBuzz
+yarn
 ```
 
-#### To run the tests
+#### To run the app:
 ```
-npm test
+yarn run fizzBuzz
+```
+
+#### To run the tests:
+```
+yarn test
 ```
