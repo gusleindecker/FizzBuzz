@@ -3,20 +3,20 @@
 class FizzBuzz {
 
   getResult(number) {
-    if (this.isMultipleOfThree(number) && this.isMultipleOfFive(number))
+    if (this.isFizz(number) && this.isBuzz(number))
       return 'FizzBuzz';
-    if (this.isMultipleOfThree(number))
+    if (this.isFizz(number))
       return 'Fizz';
-    if (this.isMultipleOfFive(number))
+    if (this.isBuzz(number))
       return 'Buzz';
     return number.toString();
   }
 
-  isMultipleOfThree(number) {
+  isFizz(number) {
     return number % 3 === 0 && number !== 0;
   }
 
-  isMultipleOfFive(number) {
+  isBuzz(number) {
     return number % 5 === 0 && number !== 0;
   }
 }
